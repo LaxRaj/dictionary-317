@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshya's Glossary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lakshya's Glossary</h1>
+            <p class="subtitle">Search for word definitions, phonetics, and more</p>
+        </header>
+
+        <main>
+            <form id="wordForm">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="wordInput" 
+                        placeholder="Enter an English word..." 
+                        required
+                        aria-label="Word input"
+                    >
+                    <button type="submit" id="searchBtn" aria-label="Search word">
+                        Magic
+                    </button>
+                </div>
+            </form>
+
+            <div id="errorMessage" class="error-message" role="alert" aria-live="polite"></div>
+            
+            <div id="results" class="results"></div>
+        </main>
+    </div>
+
+    <footer>
+        <p>
+            <a href="https://github.com/LaxRaj/dictionary-317" target="_blank" rel="noopener noreferrer">
+                View on GitHub
+            </a>
+        </p>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
+

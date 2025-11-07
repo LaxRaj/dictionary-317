@@ -1,0 +1,27 @@
+{
+  "name": "dictionary-317",
+  "version": "1.0.0",
+  "description": "## 🎯 Learning Goals By completing this assignment, you will: - Learn how to **set up a Node.js + Express project** from scratch.   - Understand how to **serve static files** (HTML, CSS, JS) using Express middleware.   - Learn to make **API requests from the browser** to an external web API.   - Practice **parsing and displaying JSON data** from an API response.   - Improve your **frontend design skills** with accessible colors, spacing, and typography.   - Learn about useful development tools like **nodemon**.   - Begin to understand what **Routes** are in Express and what they could do in future projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaxRaj/dictionary-317.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaxRaj/dictionary-317/issues"
+  },
+  "homepage": "https://github.com/LaxRaj/dictionary-317#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
